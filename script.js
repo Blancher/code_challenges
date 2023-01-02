@@ -57,8 +57,9 @@ function flattenArray(array) {
   }
   return returned;
 }
-   
-console.log(flattenArray([1, 2, [3, 4, 5], 6, [7, 8], 9]));
+
+const dimensionalArray = [1, 2, [3, 4, 5], 6, [7, 8], 9];
+console.log(flattenArray(dimensionalArray));
 
 //Missing Numbers List
 console.log("\n<Missing Numbers List>\n----------------------");
