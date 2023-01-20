@@ -15,4 +15,4 @@ function missingNos(array, n) {
 }
     
 const testArray = [1, 2, 4, 5, 6, 7, 8, 10];
-console.log(`${missingNos(testArray, 2)}\n`);
+console.log(missingNos(testArray, 2));
