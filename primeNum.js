@@ -8,7 +8,7 @@ function primeNum(n) {
       arr.push(true);
     }
   }
-  if (arr.length < 1) {
+  if (arr.length === 0) {
     return `${n} is a prime number.`;
   } else {
     return `${n} is a composite number.`;
