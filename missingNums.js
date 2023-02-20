@@ -1,7 +1,7 @@
 function missingNos(array, n) {
     const returned = [];
     if (n > array.length) {
-      n -= (n - array.length);
+      n -= (Math.abs(n - array.length));
     }
     for (let i = 0; i < n; i++) {
       const random = Math.floor(Math.random() * array.length);
